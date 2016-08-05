@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Change Calculator</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	
+	<header class="main-header">
+		<h1>Change Calculator</h1>
+	</header>
+	
+	<div class="container">
+
+		<div class="row well">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<label for="">How much is due for the sale?</label>
+						<input type="number" id="salesValue" class="form-control input-sm">
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<label for="">How much has the customer given you?</label>
+						<input type="number" id="paidValue" class="form-control input-sm">
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-5">
+					<br>
+					<button id="changeButton" class="btn btn-primary">Calculate Change</button>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<br>
+						<p>You need to return the following change to the customer:</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row well">	
+			<div class="col-md-3 col-md-offset-4">
+				<img id="dollarImage" src="imgs/250px-Onedolar2009series.jpg" class="center-block">
+				<p id="dollarsChange"></p>
+			</div>
+		</div>
+
+		<div class="row well">
+			<div class="col-md-1 col-md-offset-4">
+				<img id="quarterImage" src="imgs/2014_ATB_Quarter_Obv.png" width="50" height="50" class="center-block">
+				<p id="quartersChange"></p>
+			</div>
+			<div class="col-md-1">
+				<img id="dimeImage" src="imgs/Dime_Obverse_13.png" width="50" height="50" class="center-block">	
+				<p id="dimesChange"></p>
+				</div>
+			<div class="col-md-1">	
+				<img id="nickleImage" src="imgs/US_Nickel_2013_Obv.png" width="50" height="50" class="center-block">
+				<p id="nickelsChange"></p>
+			</div>
+			<div class="col-md-1">
+				<img id="pennyImage" src="imgs/US_One_Cent_Obv.png" width="50" height="50" class="center-block">
+				<p id="penniesChange"></p>
+			</div>			
+		</div>
+	</div>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="javascript/index.js"></script>
+
+	<footer class="main-footer">
+		<span>&copy; Repertus Works</span>
+	</footer>
+
+</body>
+</html>

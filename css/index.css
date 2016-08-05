@@ -1,0 +1,47 @@
+
+
+
+body {
+	background: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+	background-color: #D4CE6A;
+	font-family: 'Lobster', cursive;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 2px 2px 4px #000000; 
+}
+
+label,
+p {
+	color: #555000;
+}
+
+#changeButton {
+	margin-top: 21px:;
+}
+
+.main-header {
+	/* Eliminates the padding on header */
+	padding: 1em 0;
+	margin-bottom: 15px;
+	text-align: center;	
+	height:175px;
+	/*background-color: #0e777a;*/
+	background: url("../imgs/moneyPic.jpg") no-repeat center;
+	font-size: 50px;
+	color: #D4CE6A;
+}
+
+.main-footer {
+	text-align: center;
+
+}
+
+.row {
+	background-color: #FFFAAA;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+}
+

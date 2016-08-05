@@ -1,0 +1,22 @@
+{
+  "name": "Change Calculator",
+  "homepage": "https://github.com/repertus/03-ChangeCalculator",
+  "description": "Calculates customer return change",
+  "main": "index.html",
+  "authors": [
+    "Repertus"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0"
+  }
+}
